@@ -1,0 +1,444 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    
+</head>
+
+<body>
+
+    <script src="js/main.js"></script>
+
+
+
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo" >P<span>a</span>thum</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li><a href="#home" class="nav__link">Home</a></li>
+                    <li><a href="#about" class="nav__link">About</a></li>
+                    <li><a href="#service" class="nav__link">Services</a></li>
+                    <li><a href="#portfolio" class="nav__link">Projects</a></li>
+                    <li><a href="#contact" class="nav__link">Contact</a></li>
+                    
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-x'></i>
+
+                </div>
+
+            </div>
+
+            <div class="nav__social">
+                <a href="https://linkedin.com/in/pathum-sankalpa-903741215" target="_blank" class="nav__social-link">
+                    <i class='bx bxl-linkedin-square'></i>
+                </a>
+
+                <a href="https://github.com/Pathum987" target="_blank" class="nav__social-link">
+                    <i class='bx bxl-github'></i>
+                </a>
+            </div>
+            
+            <div class="nav__btns">
+                <a href="#contact" class="nav__link-btn btn">Let's Talk</a>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </div>
+
+            
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="home" id="home">
+            <div class="home__container container grid">
+            <div class="home__content">
+                <span class="home__subtitle">Welcome to my Portfolio</span>
+                <h2>I'm
+                    <span style="--i:2" data-text="Pathum">Pathum</span>
+                    <span style="--i:1" data-text="Sankalpa">Sankalpa</span>
+                </h2>
+                <h1 class="home__title"><span>Undergraduate software engineer</span> from CINEC Campus</h1>
+                
+                <a href="cv.pdf" download="Pathum_Sankalpa_CV" class="button__cv">Download CV</a>
+
+            </div>
+
+            <div class="home__img-wrapper">
+                <img src="img/me.png" alt="my image" class="home__img"/>
+            </div>
+
+            </div>
+
+            
+
+        </section>
+
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="certification-section">
+                    <h3>Certifications</h3>
+                    <div class="certification-slider">
+                        <button id="prevBtn" type="button">
+                            <i class='bx bx-skip-previous'></i>
+                        </button>
+                      
+                      <img id="certImage" src="img/cert1.PNG" alt="Certification"/>
+                  
+                      <button id="nextBtn" type="button">
+                        <i class='bx bx-skip-next'></i>
+                      </button>
+                    </div>
+                </div>
+
+                <div class="about__content">
+                    <h2 class="section__title">About Me</h2>
+
+                    <p class="about__description">Hello! I'm a third year software engineering undergraduate with a passion for technology and
+                        problem-solving. Currently, I am looking internship opportunity to improve my software engineering skills and team working.
+                        I enjoy working on projects that allow me to learn and grow,
+                        and I'm eager to create efficient and user-friendly solutions.</p>
+
+                        <div class="tabs__btns">
+                            <span class="tabs__btn tab__active" data-target="#skills">Skills</span>
+                            <span class="tabs__btn" data-target="#education">Education</span>
+                            <span class="tabs__btn" data-target="#certifications">Certifications</span>
+                            
+                            
+                        </div>
+
+                        <div class="tabs__content">
+                            <div class="tabs__item tab__active" data-content id="skills">
+                                <div class="tabs__data grid">
+
+                                    <p class="tabs__description">
+                                        <span>Languages</span>
+                                        <span>HTML CSS, JavaScript, Dart, Java, Phython, C, PHP</span>
+
+                                    </p>
+                                    
+                                    <p class="tabs__description">
+                                        <span>Databases</span>
+                                        <span>Firebase, Mysql</span>
+
+                                    </p>
+
+                                    <p class="tabs__description">
+                                        <span>Framework & libraries</span>
+                                        <span>React.js, TensorFlow, NumPy</span>
+
+                                    </p>
+
+                                    <p class="tabs__description">
+                                        <span>Version Control</span>
+                                        <span>Git & GitHub</span>
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                            <div class="tabs__item" data-content id="education">
+                                <div class="tabs__data grid">
+
+                                    <p class="tabs__description">
+                                        <span>BSc (Hons) in Software Engineering</span> - CINEC Campus
+                                        <span>( Reading )</span>
+
+                                    </p>
+                                    
+                                </div>
+                            </div>
+                        
+
+                        
+                            <div class="tabs__item" data-content id="certifications">
+                                <div class="tabs__data grid">
+
+                                    <p class="tabs__description">
+                                        <span>AI/ML engineer - Stage 1</span> - SLIIT UNI
+                                        <span><a href="https://code.sliit.org/certificates/nu7ncoy9dp"> Certificate ID: nu7ncoy9dp</a></span>
+
+                                    </p>
+                                    
+                                    <p class="tabs__description">
+                                        <span>CRIS 2023</span> - CINEC Campus
+                                        <span>Certificate for Published Abstract</span>
+
+                                    </p>
+
+                                    <p class="tabs__description">
+                                        <span>CRIS 2024</span> - CINEC Campus
+                                        <span>Certificate for Published Abstract</span>
+
+                                    </p>
+                                </div>
+                            </div>
+                        
+                </div>
+            </div>
+
+        </section>
+
+        <section class="services section" id="service">
+            <h2 class="section__title">My Service</h2>
+            <p class="section__description">This section highlights a selection of projects that demonstrate my 
+                technical expertise, problem-solving abilities, and commitment to delivering high-quality solutions
+                across various domains.
+            </p>
+
+            <div class="service__container container grid">
+                <div class="service__item">
+                    <div class="services__icon">
+                        <i class='bx bx-code-alt'></i>
+                    </div>
+                    
+                    <h3 class="service__title">Web Development</h3>
+                    <p class="service__description">I specialize in creating responsive and interactive websites using
+                        HTML, CSS, JavaScript, and React.js from simple landing pages to dynamic web applications, I focus
+                        on building user-friendly interfaces and clean, maintainable code.</p>
+                </div>
+
+                <div class="service__item">
+                    <div class="services__icon">
+                        <i class='bx bxl-flutter'></i>
+                    </div>
+                    
+                    <h3 class="service__title">App Development</h3>
+                    <p class="service__description">I develop Android mobile applications using Flutter integrated with Firebase
+                        for real-time databases, authentication and cloud services. I aim to deliver smooth, functional, and
+                        modern apps that offer a great user experience.</p>
+                </div>
+
+                <div class="service__item">
+                    <div class="services__icon">
+                        <i class='bx bx-code-curly'></i>
+                    </div>
+                    <h3 class="service__title">Software Development</h3>
+                    <p class="service__description">I build full-stack software solutions using HTML, CSS, Javascript and React.js for front-end development and
+                        Node.js, PHP, Mysql and MongoDB for back-end services. I also incorporate Artificial Intelligence (AI) techniques into software
+                        systems to enhanced user experience.</p>
+                </div>
+            </div>
+                
+        </section>
+
+        <section class="portfolio section" id="portfolio" >
+            <h2 class="section__title">My Projects</h2>
+            <p class="section__description">Explore a collection of my web, mobile and software development projects. 
+                Each project showcases my skills in modern technologies and real-world problem solving.
+            </p>
+
+            <div class="portfolio__container container grid">
+
+                <div class="portfolio__item">
+                    <img src="img/inv.jpg" alt="image1" class="portfolio__img">
+
+                    <div class="portfolio__data">
+                        <p class="portfolio__subtitle">Project 1(ongoing)</p>
+                        <h3 class="portfolio__title">Software Development</h3>
+                        <p class="portfolio__description">Implement Inventory Management System for San Piling (Pvt) Ltd</p>
+                        
+                        <div class="tech__stack">
+                            <i class='bx bxl-html5'></i>
+                            <i class='bx bxl-css3'></i>
+                            <i class='bx bxl-tailwind-css'></i>
+                            <i class='bx bxl-javascript'></i><br>
+                            <i class='bx bxl-nodejs'></i>
+                            <i class='bx bxl-mongodb'></i>
+                            <i class='bx bxl-react'></i>
+                            <i class='bx bxl-python'></i>
+
+                            
+                            
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            
+                <div class="portfolio__item">
+                    <img src="img/app.PNG" alt="image2" class="portfolio__img">
+    
+                    <div class="portfolio__data">
+                        <p class="portfolio__subtitle">Project 2</p>
+                        <h3 class="portfolio__title">App Development</h3>
+                        <p class="portfolio__description">Develop EDU HUB app for tution class management</p>
+
+                        <div class="tech__stack">
+                            <i class='bx bxl-firebase'></i>
+                            <i class='bx bxl-flutter'></i>
+                            <i class='bx bxl-visual-studio'></i>
+
+                           
+                        </div>
+
+                        <a href="https://github.com/Pathum987" target="_blank" class="nav__social-link">
+                            <i class='bx bxl-github'></i>
+                        </a>
+                        
+                    </div>
+                </div>
+
+                <div class="portfolio__item">
+                    <img src="img/selenium.PNG" alt="image3" class="portfolio__img">
+        
+                    <div class="portfolio__data">
+                        <p class="portfolio__subtitle">Project 3</p>
+                        <h3 class="portfolio__title">Automate Application</h3>
+                        <p class="portfolio__description">automate pinterest login using selenium</p>
+
+                        <div class="tech__stack">
+                            <i class='bx bxl-java'></i>
+                            
+                            
+                        </div>
+
+                        <a href="https://github.com/Pathum987" target="_blank" class="nav__social-link">
+                            <i class='bx bxl-github'></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="portfolio__item">
+                    <img src="img/vol.PNG" alt="image3" class="portfolio__img">
+        
+                    <div class="portfolio__data">
+                        <p class="portfolio__subtitle">Project 4</p>
+                        <h3 class="portfolio__title">Web Development</h3>
+                        <p class="portfolio__description">A responsive volunteer website that connects users to volunteer opportunities, 
+                        with backend support using PHP and MySQL</p>
+
+                        <div class="tech__stack">
+                            <i class='bx bxl-html5'></i>
+                            <i class='bx bxl-css3'></i>
+                            <i class='bx bxl-javascript'></i><br>
+                            <i class='bx bxl-php'></i>
+                            
+                        </div>
+
+                        <a href="https://github.com/Pathum987" target="_blank" class="nav__social-link">
+                            <i class='bx bxl-github'></i>
+                        </a>
+
+                    </div>
+
+                    
+                </div>
+
+                <div class="portfolio__item">
+                    <img src="img/portfolio.PNG" alt="image3" class="portfolio__img">
+        
+                    <div class="portfolio__data">
+                        <p class="portfolio__subtitle">Project 4</p>
+                        <h3 class="portfolio__title">Web Development</h3>
+                        <p class="portfolio__description">A responsive portfolio web site using html, css and JavaScript</p>
+
+                        <div class="tech__stack">
+                            <i class='bx bxl-html5'></i>
+                            <i class='bx bxl-css3'></i>
+                            <i class='bx bxl-javascript'></i><br>
+                            
+                            
+                        </div>
+
+                        <a href="https://github.com/Pathum987" target="_blank" class="nav__social-link">
+                            <i class='bx bxl-github'></i>
+                        </a>
+
+                    </div>
+
+                    
+
+                    
+                </div>
+
+            </div>
+
+        </section>
+        <section class="contact section" id = "contact">
+            <div class="contact__container container grid">
+                <div class="contact__content">
+                    <h2 class="section__title">Let's Work Together</h2>
+
+                    <p class="contact__description">
+                        I am available for your work. connect with me via phone: <a href="tel:+94768777631">0768777631</a> or 
+                        email: <a href="mailto:sankalpaconcepts@gmail.com">sankalpaconcepts@gmail.com</a>
+                    </p>
+
+                    <form action="https://formspree.io/f/xdkeoazy" method="POST" class="contact__form" id="contact-form">
+                        <div class="contact__form-input">
+                            <input type="text" name="name" placeholder="your name" class="contact__input" id = "contact-name">
+                        </div>
+                        <div class="contact__form-input">
+                            <input type="email" name="email" placeholder="your email" class="contact__input" id = "contact-email">
+                        </div>
+                        <div class="contact__form-input">
+                            <input type="text" name="subject" placeholder="write a subject" class="contact__input" id = "contact-subject">
+                        </div>
+                        <div class="contact__form-input">
+                            <textarea name="message" id="contact-message" placeholder="your message" class="contact__input textarea"></textarea>
+                        </div>
+                        
+                        
+                        <input type="submit" value="submit" class="btn">
+
+                        <p class="error__message" id = "error-message"></p>
+
+                        
+
+                    </form>
+                </div>
+
+                <div class="robo__spline">
+                    <spline-viewer  class="robo__change" url="https://prod.spline.design/PLpEzRMQqhLsYd6O/scene.splinecode"></spline-viewer>
+                </div>
+                
+            </div>  
+            
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container grid">
+            <a href="index.html" class="footer__logo">P<span>a</span>thum</a>
+
+            <div class="footer__social">
+                <a href="https://linkedin.com/in/pathum-sankalpa-903741215" target="_blank" class="footer__social-link">
+                    <i class='bx bxl-linkedin-square'></i>
+                </a>
+
+                <a href="https://github.com/Pathum987" target="_blank" class="footer__social-link">
+                    <i class='bx bxl-github'></i>
+                </a>
+            </div>
+
+            <p class="footer__copyright">&copy; All Rights Reserved.</p>
+        </div>
+
+    </footer>
+
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class='bx bxs-chevron-up scrollup__icon'></i>
+        
+    </a>
+    
+
+
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.79/build/spline-viewer.js"></script>
+
+</body>
+
+</html>
