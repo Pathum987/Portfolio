@@ -599,7 +599,7 @@ textarea, input{
 .portfolio__subtitle,
 .portfolio__description::after {
     color: var(--title-color);
-    opacity: 0,7;
+    opacity: 0.7;
 }
 
 
