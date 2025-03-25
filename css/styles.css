@@ -333,8 +333,8 @@ textarea, input{
 
 .home__img-wrapper {
     position: relative;
-    width: 420px;
-    height: 420px;
+    width: 320px;
+    height: 320px;
     margin-left: auto;
   }
   
@@ -1078,6 +1078,14 @@ textarea, input{
         padding-left: 10px;
         padding-top: 15px;
         padding-bottom: 15px;
+    }
+
+    .service__item{
+        margin-left: 15px;
+    }
+
+    .portfolio__item{
+        margin-left: 15px;
     }
     
     .footer{
